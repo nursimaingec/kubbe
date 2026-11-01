@@ -60,7 +60,7 @@ Seans ve koltuk bilgilerinin yönetilmesini, bilet işlemlerinin gerçekleştiri
   - Merge Sort algoritması: Filmleri izlenme ve beğeni sayısına göre sıralamak için kullanılır
 
 ## Temel Sınıflar
-***Kullanıcı ve Film Tercihleri Yönetimi***
+**Kullanıcı ve Film Tercihleri Yönetimi**
 - FilmNode: Film bağlı listesindeki düğüm
 - FilmIstatistik: İzlenme ve beğeni sayılarını tutar
 - FilmOneri: Kullanıcı tercihlerine göre öneri sunar
