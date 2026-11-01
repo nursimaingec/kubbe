@@ -41,6 +41,7 @@ Seans ve koltuk bilgilerinin yönetilmesini, bilet işlemlerinin gerçekleştiri
 - Satılan biletleri listeleme
 - Aynı koltuğa birden fazla bilet satılmasını önleme
 - İptal edilen biletin koltuğunu boş hâle getirme
+- Bilet verilerini dosyadan okuma ve dosyaya kaydetme
 
   **Veri yapısı:**
   - Tek yönlü bağlı liste: Satılan ve iptal edilen biletlerin dinamik olarak yönetilmesini sağlar.
