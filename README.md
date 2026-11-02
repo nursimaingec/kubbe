@@ -70,6 +70,24 @@ Seans ve koltuk bilgilerinin yönetilmesini, bilet işlemlerinin gerçekleştiri
 - KullaniciListesi:	Kullanıcıları bağlı listede yönetir
 - KullaniciYonetimi:	Kayıt ve giriş işlemlerini gerçekleştirir
 
+**Bilet Yönetimi**
+- Bilet.java
+-⁠ BiletNode.java
+- ⁠BiletListesi.java
+- ⁠BiletYonetimi.java
+
+**Seans ve Koltuk Yönetimi**
+- KoltukPlani.java
+- Seans.java
+- SeansListesi.java
+- SeansNode.java
+
+**Film Yönetimi**
+- Film.java
+- FilmNode.jva
+- FilmLinkedList.java
+
+
 ## Kullanılan Teknolojiler
 - Dil: Java
 - Veri saklama: Dosya (txt/csv)
