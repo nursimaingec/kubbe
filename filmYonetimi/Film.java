@@ -41,20 +41,6 @@ public class Film {
         return id + "," + ad + "," + tur + "," + yonetmen + "," + yayinYili + "," + puan;
     }
 
-    // Dosyadan okunan satırı Film nesnesine dönüştürür
-    public static Film fromFileString(String line) {
-        String[] parcalar = line.split(",");
-        if (parcalar.length == 6) {
-            int id = Integer.parseInt(parcalar[0].trim());
-            String ad = parcalar[1].trim();
-            String tur = parcalar[2].trim();
-            String yonetmen = parcalar[3].trim();
-            int yayinYili = Integer.parseInt(parcalar[4].trim());
-            double puan = Double.parseDouble(parcalar[5].trim());
-            return new Film(id, ad, tur, yonetmen, yayinYili, puan);
-        }
-        return null;
-    }
 
     @Override
     public String toString() {
